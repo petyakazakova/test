@@ -1,5 +1,4 @@
 <?php
-//this is a link to the connect.php file while actually makes the connection to the remote server - while makes it able to put a real http link
 require_once('connect.php');
 
 ?>
@@ -17,7 +16,7 @@ require_once('connect.php');
     <body>
 
       <?php
-	  //find current filename with $_SERVER superglobal - we need that because this is how we know the current file (page in our case) and after we know that - we do the styling with CSS to make it clear which page is active
+	  //find current filename with $_SERVER superglobal
       $curpage = basename($_SERVER['PHP_SELF']);
       ?>
 					
