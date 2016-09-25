@@ -1,5 +1,4 @@
 <?php
-//you need to require the connect.php file on every page so that when you connect to the remote server (in One.com) the browser can read it
 require_once('connect.php');
 
 ?>
