@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* Menu styling */
+
+
+body {
+	background-color: #F4F4F4;
+	margin-left: 5%;
+	
+	}
+
+li.active a {
+	/* !important overrides the prior styles set in CSS */
+	color: #B10C0F !important;
+	} 
+	
+
+/* check out menu.php - .active is the class="active", you just mark classes with the dot (.) in CSS. So when the page is active, the color of the text is red - you can change it, you can change the font-family or font-size etc. It's up to you. And don't leave those comments :D */
+li .active {
+color:red; 
+}
+
+
+ul {
+    margin: 40px 0 20px 0;
+    padding: 0;
+}
+
+li a {
+	padding: 10px 20px 10px 20px;
+	color: black;
+	text-decoration: none;
+	font-size: 23px;
+	text-align: center;
+    background-color: #F9C8BB;
+	}
+
+li a:hover {
+    background-color: #FFB092;
+}
+
+li {
+    display: inline;
+}
+
